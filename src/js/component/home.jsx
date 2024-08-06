@@ -34,6 +34,14 @@ const Home = () => {
 					setLuces([...luces, {nombre: 'morado', valor: 'purple'}])
 				}
 			}}>Agregar</button>
+
+			<button className="btn btn-primary" onClick={()=>{
+				
+			}
+
+			}>
+				Alternar luces
+			</button>
 		</div>
 	);
 };
