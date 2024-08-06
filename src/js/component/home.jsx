@@ -18,7 +18,7 @@ const Home = () => {
 				<div className="d-inline-block d-flex flex-column align-items-center">
 					
 					{
-						luces.map(faro=><button className={"d-inline-block  rounded-circle m-3 " + (color == 'red' ? faro.nombre : '')} style={{height:80, width:80, backgroundColor:faro.valor,}} onClick={()=>{setColor=faro.valor}}/>)
+						luces.map(faro=><button className={"d-inline-block  rounded-circle m-3 " + (color == faro.valor ? faro.nombre : '')} style={{height:80, width:80, backgroundColor:faro.valor}} onClick={()=>{setColor(faro.valor)}}/>)
 					
 					/* <button className={"d-inline-block bg-warning rounded-circle m-3 " + (color == 'yellow' ? 'amarillo' : '')} style={{height:80, width:80}} onClick={()=>{
 						setColor("yellow")

@@ -13,16 +13,22 @@
 
 .rojo{
     box-shadow: 10px 10px 40px 0px rgba(238, 5, 5, 1);
+    -moz-box-shadow: 10px 10px 40px 0px rgba(238, 5, 5, 1);
 }
 
 .amarillo {
     box-shadow: 10px 10px 40px 0px rgb(243, 228, 19, 1);
+    -moz-box-shadow: 10px 10px 40px 0px rgba(223,210,29,0.75);
+
 }
 
 .verde{
     box-shadow: 10px 10px 40px 0px rgba(8, 231, 56, 1);
+    -moz-box-shadow: 10px 10px 40px 0px rgba(8, 231, 56, 1);
 }
 
 .morado{
     box-shadow: 10px 10px 40px 0px rgb(105, 8, 231, 1);
+    -moz-box-shadow: 10px 10px 40px 0px rgba(105, 8, 231, 1);
+    
 }
